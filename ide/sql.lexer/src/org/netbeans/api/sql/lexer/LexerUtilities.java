@@ -16,7 +16,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package org.netbeans.modules.db.sql.lexer;
+package org.netbeans.api.sql.lexer;
 
 import java.util.List;
 import javax.swing.text.Document;

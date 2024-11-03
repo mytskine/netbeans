@@ -57,7 +57,7 @@ import org.netbeans.modules.db.sql.analyzer.SelectStatement;
 import org.netbeans.modules.db.sql.analyzer.SQLStatementKind;
 import org.netbeans.modules.db.sql.analyzer.UpdateStatement;
 import org.netbeans.modules.db.sql.editor.api.completion.SQLCompletionResultSet;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 import org.netbeans.spi.editor.completion.CompletionResultSet;
 import org.netbeans.spi.editor.completion.support.AsyncCompletionQuery;
 import org.openide.DialogDisplayer;

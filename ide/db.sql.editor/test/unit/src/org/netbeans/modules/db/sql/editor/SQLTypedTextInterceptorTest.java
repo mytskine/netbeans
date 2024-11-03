@@ -23,8 +23,8 @@ import org.netbeans.api.editor.mimelookup.MimeLookup;
 import org.netbeans.modules.csl.api.Formatter;
 import org.netbeans.modules.csl.api.test.CslTestBase;
 import org.netbeans.modules.csl.spi.DefaultLanguageConfig;
-import org.netbeans.modules.db.sql.lexer.SQLLanguageConfig;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLLanguageConfig;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 
 public class SQLTypedTextInterceptorTest extends CslTestBase {
 

@@ -26,7 +26,7 @@ import org.netbeans.api.lexer.Language;
 import org.netbeans.api.lexer.TokenHierarchy;
 import org.netbeans.api.lexer.TokenSequence;
 import org.netbeans.modules.db.api.sql.execute.SQLExecution;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 import org.netbeans.spi.editor.completion.CompletionProvider;
 import org.netbeans.spi.editor.completion.CompletionTask;
 import org.netbeans.spi.editor.completion.support.AsyncCompletionTask;

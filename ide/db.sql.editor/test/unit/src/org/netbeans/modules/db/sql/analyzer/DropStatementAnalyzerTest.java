@@ -25,7 +25,7 @@ import org.netbeans.api.lexer.TokenHierarchy;
 import org.netbeans.junit.NbTestCase;
 import org.netbeans.modules.db.explorer.test.api.SQLIdentifiersTestUtilities;
 import org.netbeans.modules.db.sql.analyzer.SQLStatement.Context;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 
 /**
  * @author Jiri Skrivanek

@@ -29,8 +29,8 @@ import org.netbeans.api.lexer.Token;
 import org.netbeans.api.lexer.TokenSequence;
 import org.netbeans.editor.BaseDocument;
 import org.netbeans.modules.db.sql.editor.completion.SQLCompletionEnv;
-import org.netbeans.modules.db.sql.lexer.SQLLexer;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLLexer;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 import org.netbeans.spi.editor.typinghooks.TypedTextInterceptor;
 
 /**

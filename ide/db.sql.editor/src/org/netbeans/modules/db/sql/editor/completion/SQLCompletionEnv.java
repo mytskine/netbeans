@@ -28,7 +28,7 @@ import org.netbeans.editor.BaseDocument;
 import org.netbeans.modules.db.api.sql.execute.SQLScript;
 import org.netbeans.modules.db.api.sql.execute.SQLScriptStatement;
 import org.netbeans.modules.db.sql.editor.api.completion.SubstitutionHandler;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 
 /**
  *

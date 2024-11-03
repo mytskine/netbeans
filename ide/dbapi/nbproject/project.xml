@@ -127,6 +127,7 @@
                 <friend>org.netbeans.modules.etl.editor</friend>
                 <friend>org.netbeans.modules.j2ee.jpa.verification</friend>
                 <friend>org.netbeans.modules.j2ee.persistence</friend>
+                <friend>org.netbeans.modules.sql.lexer</friend>
                 <package>org.netbeans.modules.db.api.explorer</package>
                 <package>org.netbeans.modules.db.api.metadata</package>
                 <package>org.netbeans.modules.db.api.sql</package>

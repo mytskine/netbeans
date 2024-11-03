@@ -24,7 +24,7 @@ import java.util.prefs.PreferenceChangeEvent;
 import java.util.prefs.PreferenceChangeListener;
 import java.util.prefs.Preferences;
 import org.netbeans.api.editor.mimelookup.MimeLookup;
-import org.netbeans.modules.db.sql.lexer.SQLLanguageConfig;
+import org.netbeans.api.sql.lexer.SQLLanguageConfig;
 import org.openide.util.WeakListeners;
 
 /**

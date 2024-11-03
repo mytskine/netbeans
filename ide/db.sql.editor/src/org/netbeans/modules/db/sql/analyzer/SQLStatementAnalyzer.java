@@ -33,7 +33,7 @@ import org.netbeans.api.db.sql.support.SQLIdentifiers.Quoter;
 import org.netbeans.api.lexer.TokenSequence;
 import org.netbeans.modules.db.sql.analyzer.SQLStatement.Context;
 import org.netbeans.modules.db.sql.editor.StringUtils;
-import org.netbeans.modules.db.sql.lexer.SQLTokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 import org.openide.util.Parameters;
 /**
  *

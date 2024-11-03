@@ -1,0 +1,3 @@
+OpenIDE-Module: org.netbeans.modules.sql.lexer/1
+OpenIDE-Module-Specification-Version: 1.65
+AutoUpdate-Show-In-Client: false
