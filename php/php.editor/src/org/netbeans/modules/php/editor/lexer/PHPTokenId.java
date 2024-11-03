@@ -28,6 +28,7 @@ import org.netbeans.api.lexer.Language;
 import org.netbeans.api.lexer.LanguagePath;
 import org.netbeans.api.lexer.Token;
 import org.netbeans.api.lexer.TokenId;
+import org.netbeans.api.sql.lexer.SQLTokenId;
 import org.netbeans.modules.php.api.util.FileUtils;
 import org.netbeans.spi.lexer.LanguageEmbedding;
 import org.netbeans.spi.lexer.LanguageHierarchy;
@@ -40,6 +41,7 @@ import org.netbeans.spi.lexer.LexerRestartInfo;
  */
 public enum PHPTokenId implements TokenId {
 
+    T_EMBEDDED_SQL(null, "php"), // NOI18N
     T_INLINE_HTML(null, "php"), // NOI18N
     PHP_OPENTAG(null, "phpopenclose"), //NOI18N
     T_OPEN_TAG_WITH_ECHO(null, "phpopenclose"),
@@ -232,6 +234,8 @@ public enum PHPTokenId implements TokenId {
             PHPTokenId id = token.id();
             if (id == T_INLINE_HTML) {
                 return LanguageEmbedding.create(HTMLTokenId.language(), 0, 0, true);
+            } else if (id == T_EMBEDDED_SQL) {
+                return LanguageEmbedding.create(SQLTokenId.language(), 0, 0, false);
             } else if (id == PHPDOC_COMMENT) {
                 return LanguageEmbedding.create(PHPDocCommentTokenId.language(), 0, 0);
             }
